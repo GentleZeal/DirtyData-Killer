@@ -1,0 +1,6 @@
+﻿订单号,商品名称,金额,下单日期,备注,商品名称_clean,金额_num,下单日期_parsed,__issue_金额缺失,__issue_金额解析失败,__issue_金额负值待确认,__issue_日期缺失,__issue_日期解析失败,__issue_订单号为空,__issue_订单号重复,__issue_商品名为空
+0001,  苹果  ,29.9,2026/10/01,首单,苹果,29.9,2026-10-01,False,False,False,False,False,False,False,False
+0002,香蕉,-10,2026年10月2日,退货,香蕉,-10.0,2026-10-02,False,False,True,False,False,False,True,False
+0002,香蕉,abc,2026-10-03,录入错误,香蕉,,2026-10-03,False,True,False,False,False,False,True,False
+0003,葡萄,0,2026-13-01,赠品,葡萄,0.0,,False,False,False,False,True,False,False,False
+0004,"'=SUM(1,1)",50,2026-10-04,示例公式风险文本,"'=SUM(1,1)",50.0,2026-10-04,False,False,False,False,False,False,False,False
