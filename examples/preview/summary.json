@@ -1,0 +1,21 @@
+{
+  "scenario": "销售报表",
+  "input_rows": 5,
+  "output_rows": 5,
+  "exception_rows": 3,
+  "flags": {
+    "__issue_金额缺失": 0,
+    "__issue_金额解析失败": 1,
+    "__issue_金额负值待确认": 1,
+    "__issue_日期缺失": 0,
+    "__issue_日期解析失败": 1,
+    "__issue_订单号为空": 0,
+    "__issue_订单号重复": 2,
+    "__issue_商品名为空": 0
+  },
+  "policy": "不删除记录；负值/重复号仅标记；源数据不覆盖",
+  "csv_encoding_read": "utf-8-sig",
+  "excel_safe_cells_clean": 2,
+  "excel_safe_cells_exceptions": 0,
+  "csv_export_note": "文本中潜在 Excel 公式前缀会加单引号；请勿把 CSV 当作无损的原始备份"
+}
